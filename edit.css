@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(74, 213, 255);
+}
+
+
+.dash {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.teamname {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 10%;
+
+
+}
+
+.teamname:hover {
+    background-color: green;
+}
+
+.teamlevel {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 10%;
+}
+
+.teamlevel:hover {
+    background-color: green;
+}
+
+.gameday {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 10%;
+}
+
+
+.gameday:hover {
+    background-color: green;
+}
+
+.edit {
+    color: rgb(74, 213, 255);
+    background-color: white;
+    border-color: rgb(74, 213, 255);
+    border-style: solid;
+    border-width: 1px;
+    width: 120px;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 1s, color 1s;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.edit:hover {
+    background-color: rgb(74, 213, 255);
+    color: white;
+}
+
+.edit:active {
+    opacity: 0.5;
+}
+
+.editTeam {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.mn {
+    text-align: center;
+    color: green;
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+.erro {
+    text-align: center;
+    color: rgb(74, 213, 255);
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+.divEdit {
+    display: flex;
+}
+
+.main {
+
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditForm {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-right: 8%;
+
+}

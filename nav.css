@@ -1,0 +1,15 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+    margin: left;
+    font-family: fantasy;
+
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+    
+}

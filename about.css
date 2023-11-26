@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(74, 213, 255);
+}
+
+.about-div {
+    display: flex;
+}
+
+.about-main {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 40%; */
+
+}
+
+.about-form {
+    text-align: center;
+}

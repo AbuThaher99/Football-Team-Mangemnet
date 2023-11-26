@@ -1,0 +1,102 @@
+.create {
+    color: rgb(74, 213, 255);
+    background-color: white;
+    border-color: rgb(74, 213, 255);
+    border-style: solid;
+    border-width: 1px;
+    width: 120px;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 1s, color 1s;
+    margin-left: 45%;
+    margin-top: 3%;
+
+
+}
+
+
+.main {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+
+
+}
+
+.m {
+    display: flex;
+}
+
+
+
+.create:hover {
+    background-color: rgb(74, 213, 255);
+    color: white;
+}
+
+.create:active {
+    opacity: 0.5;
+}
+
+.log {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.n {
+    background-color: rgb(74, 213, 255);
+}
+
+.wel {
+    text-align: center;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+
+
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

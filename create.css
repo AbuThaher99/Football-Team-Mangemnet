@@ -1,0 +1,127 @@
+.teamname {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 3%;
+}
+
+.teamname:hover {
+    background-color: green;
+}
+
+.teamlevel {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 3%;
+}
+
+.teamlevel:hover {
+    background-color: green;
+}
+
+.gameday {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 3%;
+}
+
+.gameday:hover {
+    background-color: green;
+}
+
+body {
+    background-color: rgb(74, 213, 255);
+}
+
+.create {
+    color: rgb(74, 213, 255);
+    background-color: white;
+    border-color: rgb(74, 213, 255);
+    border-style: solid;
+    border-width: 1px;
+    width: 105px;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 1s, color 1s;
+    margin-left: 37%;
+    margin-top: 3%;
+}
+
+.create:hover {
+    background-color: rgb(74, 213, 255);
+    color: white;
+}
+
+.create:active {
+    opacity: 0.5;
+}
+
+.headerTeam {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+
+
+}
+
+.linkteam {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.newTeam {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.error {
+    text-align: center;
+    color: red;
+
+}
+
+.success {
+    text-align: center;
+    color: green;
+    margin-left: 2%;
+}
+
+.creatediv {
+    display: flex;
+}
+
+.main {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.creteform {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-right: 10%;
+
+}

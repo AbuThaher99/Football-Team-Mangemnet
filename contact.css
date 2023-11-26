@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(74, 213, 255);
+}
+
+.cont {
+    text-align: center;
+    font-size: 30px;
+    color: black
+}
+
+.name {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 3%;
+}
+
+.name:hover {
+    background-color: green;
+}
+
+.message {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 100px;
+    width: 200px;
+    margin-top: 3%;
+}
+
+.message:hover {
+    background-color: green;
+}
+
+.email {
+    border-color: rgb(74, 213, 255);
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 25px;
+    width: 200px;
+    margin-top: 3%;
+}
+
+.email:hover {
+    background-color: green;
+}
+
+.submit {
+    color: rgb(74, 213, 255);
+    background-color: white;
+    border-color: rgb(74, 213, 255);
+    border-style: solid;
+    border-width: 1px;
+    width: 120px;
+    height: 36px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background 1s, color 1s;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.submit:hover {
+    background-color: rgb(74, 213, 255);
+    color: white;
+}
+
+.submit:active {
+    opacity: 0.5;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    margin-left: 3%;
+    margin-left: 35%;
+}
+
+.success {
+    text-align: center;
+    color: green;
+}
+
+.conant-div {
+    display: flex;
+}
+
+.contant-main {
+    flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contant-form {
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 135%;
+
+}
